@@ -5,9 +5,9 @@ import 'dart:typed_data';
 class Product {
   String id;
   String name;
-  int price;
+  var price;
   String attr;
-  int qty;
+  var qty;
   var weight;
   int createdAt;
   int updatedAt;

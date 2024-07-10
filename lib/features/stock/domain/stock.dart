@@ -3,7 +3,7 @@ import 'dart:typed_data';
 class Stock {
   String id;
   String name;
-  int qty;
+  var qty;
   String attr;
   var weight;
   int createdAt;

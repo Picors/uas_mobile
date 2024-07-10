@@ -47,7 +47,7 @@ class SalesForm extends ConsumerWidget {
     int calculateTotalPrice(List<Product> products) {
       int totalPrice = 0;
       for (Product product in products) {
-        totalPrice += product.price;
+        totalPrice += int.parse(product.price);
       }
       return totalPrice;
     }
